@@ -1,4 +1,4 @@
-# Clicky Game
+# Presidential Memory
 
 _A memory game built with React and requires the concepts of components, state, and basic event handling._
 
