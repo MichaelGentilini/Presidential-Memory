@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import Nav from './Nav.js';
 import Button from './Button.js';
+import Footer from './Footer.js';
 import presidentData from './presidentImages.js';
 import { Row, Container } from 'reactstrap';
 
@@ -101,6 +102,7 @@ class App extends React.Component {
         <Container className='mt-3 text-center mx-auto'>
           <Row>{presImages}</Row>
         </Container>
+        <Footer />
       </div>
     );
   }

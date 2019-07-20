@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import './index.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 
 export default class Example extends Component {
