@@ -1,10 +1,10 @@
-import React from 'react';
-import './index.css';
-import Nav from './Nav.js';
-import Button from './Button.js';
-import Footer from './Footer.js';
-import presidentData from './presidentImages.js';
-import { Row, Container } from 'reactstrap';
+import React from "react";
+import "./index.css";
+import Nav from "./Nav.js";
+import Button from "./Button.js";
+// import Footer from './Footer.js';
+import presidentData from "./presidentImages.js";
+import { Row, Container } from "reactstrap";
 
 class App extends React.Component {
   constructor() {
@@ -13,13 +13,13 @@ class App extends React.Component {
       score: 0,
       topScore: 0,
       presidentData,
-      message: 'Click A Pesident to Begin the Game',
+      message: "Click A Pesident to Begin the Game",
     };
   }
 
   updateClick = id => {
     this.setState({
-      message: '',
+      message: "",
     });
     const images = this.state.presidentData.map(x => x);
 
@@ -36,7 +36,7 @@ class App extends React.Component {
       if (image.id === id) {
         if (image.isClicked === false) {
           image.isClicked = true;
-          image.message = 'Good Guess, You got one!';
+          image.message = "Good Guess, You got one!";
 
           this.setState({
             presidentData: images,
@@ -47,7 +47,7 @@ class App extends React.Component {
           if (this.state.score >= this.state.topScore) {
             this.setState({
               topScore: this.state.topScore + 1,
-              message: 'New High Score!',
+              message: "New High Score!",
             });
           }
         } else if (image.isClicked) {
@@ -65,7 +65,7 @@ class App extends React.Component {
     this.setState({
       presidentData: resetArray,
       score: 0,
-      message: 'Sorry, you already guessed that one.',
+      message: "Sorry, you already guessed that one.",
     });
   };
 
@@ -83,26 +83,26 @@ class App extends React.Component {
       ));
 
     return (
-      <div className='App bg-dark'>
+      <div className="App bg-dark">
         <Nav />
-        <div className='bg-dark'>
-          <h2 className='text-white text-center mt-4'>
+        <div className="bg-dark">
+          <h2 className="text-white text-center mt-4">
             Score: {this.state.score} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Top
             Score: {this.state.topScore}
           </h2>
-          <h4 className='text-warning text-center mt-3'>
-            {' '}
+          <h4 className="text-warning text-center mt-3">
+            {" "}
             {/* Hello */}
-            {this.state.message}{' '}
+            {this.state.message}{" "}
           </h4>
         </div>
         {/* <p className='text-white'>{this.state.message}</p> */}
-        <div className='bg-dark text-white' />
+        <div className="bg-dark text-white" />
 
-        <Container className='mt-3 text-center mx-auto'>
+        <Container className="mt-3 text-center mx-auto">
           <Row>{presImages}</Row>
         </Container>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
