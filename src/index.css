@@ -6,9 +6,9 @@ body {
 }
 
 .App {
-  background-image: url(https://images.unsplash.com/photo-1524242109383-e349707a106b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
-  background-size: cover;
-  height: 100vh;
+  /* background-image: url(https://images.unsplash.com/photo-1524242109383-e349707a106b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+  background-size: cover; */
+  height: 110vh;
 }
 
 .img-btn {

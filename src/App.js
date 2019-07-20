@@ -12,7 +12,7 @@ class App extends React.Component {
       score: 0,
       topScore: 0,
       presidentData,
-      message: '',
+      message: 'Click A Pesident to Begin the Game',
     };
   }
 
@@ -40,7 +40,7 @@ class App extends React.Component {
           this.setState({
             presidentData: images,
             score: this.state.score + 1,
-            message: 'Good Guess, You got one!',
+            // message: 'Good Guess, You got one!',
           });
 
           if (this.state.score >= this.state.topScore) {
@@ -67,9 +67,10 @@ class App extends React.Component {
       message: 'Sorry, you already guessed that one.',
     });
   };
+
   render() {
     const presImages = presidentData
-      .slice(0, 12) // ! Number of images modified
+      .slice(0, 15) // ! Number of images modified
       .map(image => (
         <Button
           key={image.id}
@@ -81,9 +82,9 @@ class App extends React.Component {
       ));
 
     return (
-      <div className='App'>
+      <div className='App bg-dark'>
         <Nav />
-        <div className='bg-dark py-3'>
+        <div className='bg-dark'>
           <h2 className='text-white text-center mt-4'>
             Score: {this.state.score} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Top
             Score: {this.state.topScore}
