@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dallasappraiser/clicky/static/css/main.75a6c70f.chunk.css",
-    "main.js": "/dallasappraiser/clicky/static/js/main.bc70e1bd.chunk.js",
-    "main.js.map": "/dallasappraiser/clicky/static/js/main.bc70e1bd.chunk.js.map",
-    "runtime~main.js": "/dallasappraiser/clicky/static/js/runtime~main.32de431b.js",
-    "runtime~main.js.map": "/dallasappraiser/clicky/static/js/runtime~main.32de431b.js.map",
-    "static/js/2.779b4c23.chunk.js": "/dallasappraiser/clicky/static/js/2.779b4c23.chunk.js",
-    "static/js/2.779b4c23.chunk.js.map": "/dallasappraiser/clicky/static/js/2.779b4c23.chunk.js.map",
-    "index.html": "/dallasappraiser/clicky/index.html",
-    "precache-manifest.32e111e48c2e42ab32d47a10e5ecbcfc.js": "/dallasappraiser/clicky/precache-manifest.32e111e48c2e42ab32d47a10e5ecbcfc.js",
-    "service-worker.js": "/dallasappraiser/clicky/service-worker.js",
-    "static/css/main.75a6c70f.chunk.css.map": "/dallasappraiser/clicky/static/css/main.75a6c70f.chunk.css.map",
-    "static/media/index.css": "/dallasappraiser/clicky/static/media/merica3.d1bbdcd0.jpg"
+    "main.css": "/Presidential-Memory/static/css/main.b412be62.chunk.css",
+    "main.js": "/Presidential-Memory/static/js/main.c8697a85.chunk.js",
+    "main.js.map": "/Presidential-Memory/static/js/main.c8697a85.chunk.js.map",
+    "runtime~main.js": "/Presidential-Memory/static/js/runtime~main.d97a2c15.js",
+    "runtime~main.js.map": "/Presidential-Memory/static/js/runtime~main.d97a2c15.js.map",
+    "static/js/2.779b4c23.chunk.js": "/Presidential-Memory/static/js/2.779b4c23.chunk.js",
+    "static/js/2.779b4c23.chunk.js.map": "/Presidential-Memory/static/js/2.779b4c23.chunk.js.map",
+    "index.html": "/Presidential-Memory/index.html",
+    "precache-manifest.e9887e6a3c791ef1dfbe56c70bcdadea.js": "/Presidential-Memory/precache-manifest.e9887e6a3c791ef1dfbe56c70bcdadea.js",
+    "service-worker.js": "/Presidential-Memory/service-worker.js",
+    "static/css/main.b412be62.chunk.css.map": "/Presidential-Memory/static/css/main.b412be62.chunk.css.map",
+    "static/media/index.css": "/Presidential-Memory/static/media/merica3.d1bbdcd0.jpg"
   }
 }
