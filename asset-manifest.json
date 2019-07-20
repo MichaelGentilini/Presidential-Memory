@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Presidential-Memory/static/css/main.b412be62.chunk.css",
-    "main.js": "/Presidential-Memory/static/js/main.c8697a85.chunk.js",
-    "main.js.map": "/Presidential-Memory/static/js/main.c8697a85.chunk.js.map",
+    "main.js": "/Presidential-Memory/static/js/main.e8517c16.chunk.js",
+    "main.js.map": "/Presidential-Memory/static/js/main.e8517c16.chunk.js.map",
     "runtime~main.js": "/Presidential-Memory/static/js/runtime~main.d97a2c15.js",
     "runtime~main.js.map": "/Presidential-Memory/static/js/runtime~main.d97a2c15.js.map",
     "static/js/2.779b4c23.chunk.js": "/Presidential-Memory/static/js/2.779b4c23.chunk.js",
     "static/js/2.779b4c23.chunk.js.map": "/Presidential-Memory/static/js/2.779b4c23.chunk.js.map",
     "index.html": "/Presidential-Memory/index.html",
-    "precache-manifest.e9887e6a3c791ef1dfbe56c70bcdadea.js": "/Presidential-Memory/precache-manifest.e9887e6a3c791ef1dfbe56c70bcdadea.js",
+    "precache-manifest.3c729d01072c4bb661fb604d0ea84894.js": "/Presidential-Memory/precache-manifest.3c729d01072c4bb661fb604d0ea84894.js",
     "service-worker.js": "/Presidential-Memory/service-worker.js",
     "static/css/main.b412be62.chunk.css.map": "/Presidential-Memory/static/css/main.b412be62.chunk.css.map",
     "static/media/index.css": "/Presidential-Memory/static/media/merica3.d1bbdcd0.jpg"

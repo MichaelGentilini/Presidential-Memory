@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Presidential-Memory/precache-manifest.e9887e6a3c791ef1dfbe56c70bcdadea.js"
+  "/Presidential-Memory/precache-manifest.3c729d01072c4bb661fb604d0ea84894.js"
 );
 
 self.addEventListener('message', (event) => {

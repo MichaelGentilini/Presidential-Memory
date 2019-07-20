@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c8f3a3e046ab64cc9b2a7840de69fbe",
+    "revision": "4e7d1d35412ce713ce4c0ba13b5d5e87",
     "url": "/Presidential-Memory/index.html"
   },
   {
-    "revision": "285b571d259661654e0d",
+    "revision": "1e3d651c0091c2c31c23",
     "url": "/Presidential-Memory/static/css/main.b412be62.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Presidential-Memory/static/js/2.779b4c23.chunk.js"
   },
   {
-    "revision": "285b571d259661654e0d",
-    "url": "/Presidential-Memory/static/js/main.c8697a85.chunk.js"
+    "revision": "1e3d651c0091c2c31c23",
+    "url": "/Presidential-Memory/static/js/main.e8517c16.chunk.js"
   },
   {
     "revision": "62cf2f08c5dec29424c7",
